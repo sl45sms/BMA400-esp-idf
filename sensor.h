@@ -12,9 +12,10 @@ struct BMA400_InterfaceData
 
     // I2C settings
     uint8_t i2cAddress;
-    TwoWire* i2cPort;
 
     // SPI settings (not implemented)
     uint8_t spiCSPin;
     uint32_t spiClockFrequency;
 };
+
+esp_err_t get_accel_data(struct bma400_sensor_data *accel);
