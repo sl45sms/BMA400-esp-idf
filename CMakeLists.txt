@@ -1,1 +1,1 @@
-idf_component_register(SRCS "sensor.c" INCLUDE_DIRS ".")
+idf_component_register(SRCS "sensor.c" "BMA400-API/bma400.c" INCLUDE_DIRS ". BMA400-API")
