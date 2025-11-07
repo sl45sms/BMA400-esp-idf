@@ -1,0 +1,12 @@
+{
+    "idf.port": "/dev/cu.usbserial-1420",
+    "idf.adapterTargetName": "esp32",
+    "idf.openOcdConfigs": [
+        "interface/ftdi/esp32_devkitj_v1.cfg",
+        "target/esp32.cfg"
+    ],
+    "files.associations": {
+        "sensor.h": "c"
+    },
+    "idf.pythonInstallPath": "/usr/local/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/bin/python3"
+}
